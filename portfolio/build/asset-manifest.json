@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.51d86fe4.css",
+    "main.js": "/static/js/main.da088bc2.js",
+    "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
+    "static/media/GATE.png": "/static/media/GATE.a761b56949bd7c7b5f7b.png",
+    "static/media/DIVYANKgupta.jpg": "/static/media/DIVYANKgupta.ebb5dcb1c80c24ebc532.jpg",
+    "static/media/Screenshot1.png": "/static/media/Screenshot1.1682d9e791154d715bae.png",
+    "static/media/NPTEL_DSA.png": "/static/media/NPTEL_DSA.2a8c5c556635765dc49f.png",
+    "static/media/Divyank_Gupta.pdf": "/static/media/Divyank_Gupta.a133f41e72793db480ee.pdf",
+    "static/media/NET.png": "/static/media/NET.76e775437924585f6650.png",
+    "static/media/PostgreSQL.png": "/static/media/PostgreSQL.a63715cfc24a04309ef2.png",
+    "static/media/NPTEL_JAVA.jpg": "/static/media/NPTEL_JAVA.0539e9d031eda2334e81.jpg",
+    "static/media/NPTEL_DBMS.jpg": "/static/media/NPTEL_DBMS.556c858032786f219041.jpg",
+    "index.html": "/index.html",
+    "main.51d86fe4.css.map": "/static/css/main.51d86fe4.css.map",
+    "main.da088bc2.js.map": "/static/js/main.da088bc2.js.map",
+    "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51d86fe4.css",
+    "static/js/main.da088bc2.js"
+  ]
+}
