@@ -1,0 +1,132 @@
+body {
+    overflow-x: hidden; /* add this property */
+}
+
+.theme-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: #1e1e1e;
+    margin-top: 10px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    z-index: 1;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #edf6f9;
+    padding: 10px;
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+.home-content h1{
+    color: #ffb703;
+}
+
+.home-content h2{
+    color: #ffb703;
+}
+
+.home-container img {
+    border-radius: 90px;
+    height: 240px;
+    width: 180px;
+    display: flex;
+    vertical-align: middle;
+    margin-right: 90px;
+}
+
+.home-buttons {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.home-buttons .btn-hire{
+    background-color: #219ebc;
+    width: 200px;
+    font-size: 2rem;
+    border-radius: 40px;
+}
+
+.home-buttons .btn-hire:hover{
+    background-color: #e9c46a;
+    width: 220px;
+    font-size: 2.1rem;
+    transition: 500ms;
+}
+
+.home-buttons .btn-cv{
+    background-color: #e9c46a;
+    width: 200px;
+    font-size: 2rem;
+    border-radius: 40px;
+}
+
+.home-buttons .btn-cv:hover{
+    background-color: #219ebc;
+    width: 220px;
+    font-size: 2.1rem;
+    transition: 500ms;
+}
+
+/* Media queries for responsiveness */
+
+/* For screens smaller than 768px (tablets and mobiles) */
+@media only screen and (max-width: 768px) {
+    .home-container {
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .home-container img {
+        height: 180px;
+        width: 140px;
+        margin-right: 40px;
+    }
+    .home-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .home-buttons .btn-hire, .home-buttons .btn-cv {
+        width: 150px;
+        font-size: 1.8rem;
+    }
+    .home-buttons .btn-hire:hover, .home-buttons .btn-cv:hover {
+        width: 170px;
+        font-size: 2rem;
+    }
+}
+
+/* For screens smaller than 480px (small mobiles) */
+@media only screen and (max-width: 480px) {
+    .home-container {
+        margin-top: 5px;
+    }
+    .home-container img {
+        height: 120px;
+        width: 100px;
+        margin-right: 20px;
+    }
+    .home-buttons {
+        gap: 5px;
+    }
+    .home-buttons .btn-hire, .home-buttons .btn-cv {
+        width: 120px;
+        font-size: 1.5rem;
+    }
+    .home-buttons .btn-hire:hover, .home-buttons .btn-cv:hover {
+        width: 140px;
+        font-size: 1.7rem;
+    }
+}

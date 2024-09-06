@@ -1,0 +1,60 @@
+.about {
+    display: flex;
+    flex-direction: column; 
+    padding: 40px; 
+    color: #edf6f9;
+    background-color: #264653;
+  }
+  
+  /* Medium and large screens */
+  @media (min-width: 768px) {
+    .about {
+      margin-left: 140px; 
+    }
+  }
+  
+  .about h2 {
+    color: #ffb703;
+    font-size: 50px;
+    font-family: cursive;
+    padding: 20px 10px 0;
+  }
+  
+  .about p {
+    padding: 0 20px;
+    font-size: 20px;
+    max-width: 90%;
+    text-align: justify; 
+  }
+  
+  /* Make the text more readable on smaller screens */
+  @media (max-width: 767px) {
+    .about h2 {
+      font-size: 36px;
+    }
+    .about p {
+      font-size: 18px;
+    }
+  }
+  
+  /* Add some animations to make it more impressive */
+  .about-content {
+    transition: opacity 0.5s; /* add a transition effect to the content */
+  }
+  
+  .about-content.fade-in {
+    opacity: 1; /* set the opacity to 1 when the animation is complete */
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s; /* add a fade-in animation */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

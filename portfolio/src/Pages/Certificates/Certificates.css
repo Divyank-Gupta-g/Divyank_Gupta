@@ -1,0 +1,57 @@
+.certificates-container {
+  color: #edf6f9;
+  background-color: #264653;
+  margin-left: 170px;
+}
+
+.certificates h2{
+  color: #ffb703;
+  font-size: 50px;
+  font-family: cursive;
+  padding: 20px 10px 0;
+}
+
+#ads{
+  margin: 30px 0 0 0;
+}
+
+#ads .card img{
+  height: 250px;
+  width: 100%;
+}
+
+#ads .card:hover{
+  border-radius: 4px;
+  box-shadow: 12px 15px 20px 0 black;
+  transition: all 0.5s ease;
+}
+
+#ads h3{
+  font-size: 18px;
+  font-family: cursive;
+}
+
+/* Small screens (max-width 768px) */
+@media (max-width: 768px) {
+  .certificates-container {
+    margin-left: 10px; 
+    margin-top: 10px;
+  }
+  #ads .card img{
+    height: 150px; /* reduce image height for small screens */
+  }
+}
+
+/* Medium screens (min-width 769px and max-width 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .certificates-container {
+    margin-left: 280px + 20px; /* account for sidebar width and some padding */
+  }
+}
+
+/* Large screens (min-width 1025px) */
+@media (min-width: 1025px) {
+  .certificates-container {
+    margin-left: 280px + 40px; /* account for sidebar width and more padding */
+  }
+}

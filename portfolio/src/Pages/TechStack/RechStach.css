@@ -1,0 +1,96 @@
+.techStackContainer {
+  color: #edf6f9;
+  background-color: #264653;
+}
+
+.techStack h2 {
+  color: #ffb703;
+  font-size: 48px; /* increased font size for better readability */
+  font-family: cursive;
+}
+
+/* Media queries for different screen sizes */
+@media (min-width: 1200px) {
+  .techStackContainer {
+    margin-left: 180px; /* adjust this value based on your sidebar width */
+  }
+  .row {
+    padding: 5px 150px 20px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .techStackCard {
+    width: 20%; /* make the cards take up 20% of the row width */
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .techStackCard img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .techStackContainer {
+    margin-left: 220px; /* adjust this value based on your sidebar width */
+  }
+  .row {
+    padding: 5px 100px 20px 40px;
+  }
+  .techStackCard {
+    width: 25%; /* make the cards take up 25% of the row width */
+    margin: 15px;
+  }
+  .techStackCard img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 991px) {
+  .techStackContainer {
+    margin-left: 0; /* remove margin on small screens */
+    padding: 20px;
+  }
+  .row {
+    padding: 5px 20px 10px 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .techStackCard {
+    width: 80%; /* make the cards take up 80% of the row width */
+    margin: 10px;
+  }
+  .techStackCard img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Additional styles to make it more attractive */
+.techStackCard {
+  background-color: #f1faee;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.techStackCard:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
+.techStackCard img {
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.techStackCard:hover img {
+  transform: scale(1.1);
+}

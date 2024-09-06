@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Dark mode */
+#dark{
+  background-color: rgb(32, 30, 30);
+}

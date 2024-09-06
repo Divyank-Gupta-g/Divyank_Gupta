@@ -1,0 +1,217 @@
+/* Global Styles */
+
+.contact-container {
+    color: #edf6f9;
+    background-image: linear-gradient(to bottom, #006d77, #83c5be);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-left: 0px;
+  }
+  
+  .contact h2 {
+    color: #ffb703;
+    font-size: 50px;
+    font-family: cursive;
+    padding: 20px 10px 0;
+    text-shadow: 0 0 10px rgba(255, 183, 3, 0.5);
+  }
+  
+  .contact .card0 {
+    background-color: #006d77;
+    border-radius: 10px;
+    padding: 20px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-right: 60px;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .contact .card1 {
+    border-radius: 5px;
+    background-color: #83c5be;
+    box-shadow: 0 4px 8px 0 black;
+    padding: 5px 10px 20px 0;
+    margin-bottom: 20px;
+    transform: rotate(-3deg);
+    transition: all 0.5s ease;
+  }
+
+  .contact .card2 {
+    border-radius: 5px;
+    background-color: #83c5be;
+    box-shadow: 0 4px 8px 0 black;
+    padding: 5px 10px 20px 0;
+    margin-bottom: 20px;
+    transform: rotate(3deg);
+    transition: all 0.5s ease;
+    margin-top: 80px;
+  }
+
+  .contact .card3 {
+    border-radius: 5px;
+    background-color: #83c5be;
+    box-shadow: 0 4px 8px 0 black;
+    padding: 5px 10px 20px 0;
+    margin-bottom: 20px;
+    transform: rotate(3deg);
+    transition: all 0.5s ease;
+    margin-left: 60px;
+  }
+
+  .contact .card0:hover{
+    box-shadow: 12px 15px 20px 0 black;
+    transform: scale(1.01);
+  }
+  
+  .contact .card1:hover {
+    border-radius: 4px;
+    box-shadow: 12px 15px 20px 0 black;
+    transform: translateY(-5px);
+  }
+
+  .contact .card2:hover {
+    border-radius: 4px;
+    box-shadow: 12px 15px 20px 0 black;
+    transform: translateY(-5px);
+  }
+
+  .contact .card3:hover {
+    border-radius: 4px;
+    box-shadow: 12px 15px 20px 0 black;
+    transform: translateY(-5px);
+  }
+  
+  ::placeholder {
+    color: #bdbdbd;
+    opacity: 1;
+    font-weight: 300;
+    font-family: cursive;
+  }
+  
+  input, textarea {
+    padding: 10px 12px;
+    border: 1px solid #83c5be;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+  }
+  
+  input:focus, textarea:focus {
+    box-shadow: none !important;
+    outline: 2px solid #006d77 !important;
+    outline-width: 0px;
+    border-color: #ffb703;
+  }
+  
+  .button {
+    display: inline-block;
+    text-align: center;
+    background-color: #264653;
+    color: #edf6f9;
+    height: 40px;
+    border-radius: 80px;
+    font-size: 18px;
+    line-height: 36px;
+    margin: 10px 20px;
+    padding: 0 20px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #1e3d5a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+  
+  .row.px-3 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card2 .row.border-line span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card2 .row.border-line a {
+    margin-right: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card2 .row.border-line a:hover {
+    transform: scale(1.1);
+  }
+  
+  .card2 .row.border-line a:last-child {
+    margin-right: 0;
+  }
+  
+  .card2 .row.border-line .LinkedIn {
+    color: #0072b1; /* LinkedIn blue */
+  }
+  
+  .card2 .row.border-line .LinkedIn:hover {
+    color: #0069b1; /* LinkedIn blue on hover */
+  }
+  
+  .card2 .row.border-line .BsLinkedin {
+    font-size: 48px;
+  }
+  
+  .card2 .row.border-line .BsGithub {
+    font-size: 48px;
+    color: #333; /* GitHub dark gray */
+  }
+  
+  .card2 .row.border-line .BsGithub:hover {
+    color: #666; /* GitHub dark gray on hover */
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 10px;
+    }
+    .contact h2 {
+      font-size: 30px;
+    }
+    .contact .card1 {
+      padding: 5px 10px 10px 0;
+    }
+    input, textarea {
+      margin-left: 5px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-container {
+      padding: 5px;
+    }
+    .contact h2 {
+      font-size: 20px;
+    }
+    .contact .card1 {
+      padding: 5px 5px 5px 0;
+    }
+    input, textarea {
+      margin-left: 0;
+    }
+  }
+
+/* Medium and large screens */
+@media (min-width: 769px) {
+  .contact-container {
+      margin-left: 170px; 
+  }
+}
+
+/* Large screens */
+@media (min-width: 1025px) {
+  /* no additional styles needed for large screens */
+}

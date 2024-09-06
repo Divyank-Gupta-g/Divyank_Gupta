@@ -1,0 +1,42 @@
+.navbar-profile-pic img {
+    display: flex;
+    border-radius: 90px;
+    height: 190px;
+    width: 150px;
+    display: flex;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.nav-item { 
+    justify-content: center; 
+    align-items: center;
+    padding: 10px; 
+  }
+  
+  .nav-links {
+    width: 90%;
+    margin-top: 20px;
+    background: #edf6f9;
+    font-size: 1.2rem;
+    border-radius: 5rem;
+    padding: 10px 20px; 
+    text-decoration: none; 
+    color: #333; 
+    transition: background 0.3s ease; 
+    cursor: pointer;
+  }
+  
+  .nav-links:hover {
+    background: #d6f5f7; /* added a hover effect */
+    color: #00698f; /* added a hover text color */
+  }
+  
+  .nav-links svg {
+    margin-right: 10px;
+    vertical-align: middle; 
+  }
+
+  .nav-links .active{
+    text-decoration: none;
+  }

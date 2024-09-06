@@ -1,0 +1,28 @@
+.educations-container {
+    color: #edf6f9;
+    background-color: #264653;
+    margin-left: 0px;
+}
+
+.educations h2{
+    color: #ffb703;
+    font-size: 50px;
+    font-family: cursive;
+    padding: 20px 10px 0;
+}
+
+.educations .vertical-timeline-element-subtitle{
+    color: #ffb703;
+}
+
+/* Medium and large screens */
+@media (min-width: 769px) {
+    .educations-container {
+        margin-left: 170px; 
+    }
+}
+
+/* Large screens */
+@media (min-width: 1025px) {
+    /* no additional styles needed for large screens */
+}
